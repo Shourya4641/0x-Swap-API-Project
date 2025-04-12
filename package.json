@@ -1,0 +1,27 @@
+{
+  "name": "zx-swap-project",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node main.js",
+    "dev": "ts-node main.ts"
+  },
+  "keywords": [],
+  "author": "Shourya",
+  "license": "ISC",
+  "type": "module",
+  "description": "0x swap project",
+  "devDependencies": {
+    "@types/bun": "^1.2.9",
+    "@types/dotenv": "^8.2.3",
+    "@types/qs": "^6.9.18",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "qs": "^6.14.0",
+    "viem": "^2.26.3"
+  }
+}
